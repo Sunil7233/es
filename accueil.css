@@ -158,7 +158,7 @@ h1{
     font-size: 21px;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 1200px){
 
     .planet{
         flex: 33.33%;
@@ -169,7 +169,7 @@ h1{
 
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 800px){
     .planet{
         flex: 50%;
     }
