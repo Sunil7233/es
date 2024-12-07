@@ -161,7 +161,7 @@ h1{
 @media all and (max-width: 1200px){
 
     .planet{
-        flex: 50%;
+        flex: 33.3%;
     }
     .barre{
         font-size: 3vw;
