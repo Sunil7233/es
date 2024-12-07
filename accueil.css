@@ -1,0 +1,192 @@
+*{
+    font-family:monospace;
+}
+
+body{
+    background: url(R.jpg);
+    background-size: cover;
+}
+.container{
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.barre{
+    font-size: 2vw;
+    background-color: white;
+    height: 70px;
+    width: 95%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    position: fixed;
+    z-index: 6;
+
+}
+
+
+.allActivité{
+    font-size: 1.3vw;
+    position: fixed;
+    top: 8vh;
+    left: 46.4vw;
+    width: 120px;
+    height: 270px;
+    padding-left: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    visibility: hidden;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p:hover{
+    transform: scale(1.2);
+}
+
+
+.wrapper{
+
+    margin-top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > *{
+
+    padding: 10px;
+    margin: 10px;
+    margin-top: 90px;
+    flex:100%;
+}
+
+h1{
+    color:white;
+    font-size: 8vw;
+    padding-top:-70px ;
+    height: 120px;
+}
+
+.footer{
+    background-color: aqua;
+    height: 80px;
+}
+
+.planet1{
+    background: url(orange.png);
+    background-size: 920px 570px;
+    background-position: center center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet2{
+    background: url(Rouge.png);
+    background-size: 1620px 850px;
+    background-position: center center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet3{
+    background: url(Jaune.png);
+    background-size: 2120px 1140px;
+    background-position: center center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet4{
+    background: url(trous.png); 
+    background-size: 1990px 900px;
+    background-position: center center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planet:hover{
+    transform: rotate(50deg);
+}
+.planet:hover >*{
+    transform: rotate(-50deg);
+}
+
+.planet5{
+    background: url(Violet.png);
+    background-size: 1090px 540px;
+    background-position: center center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet6{
+    background: url(Meilleur.png);
+    background-size: 2460px 1100px;
+    background-position: center center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet{
+    flex: 27%;
+    color: white;
+    font-size: 21px;
+}
+
+@media all and (max-width: 800px){
+
+    .planet{
+        flex: 33.33%;
+    }
+    .barre{
+        font-size: 3vw;
+    }
+
+}
+
+@media all and (max-width: 600px){
+    .planet{
+        flex: 50%;
+    }
+    .barre{
+        font-size: 4vw;
+        width: 89vw;
+    }
+}
+
+@media all and (max-width: 400px){
+    .planet{
+        flex: 50%;
+    }
+    .barre{
+        font-size: 5vw;
+        width: 75vw;
+    }
+}
+
+
+

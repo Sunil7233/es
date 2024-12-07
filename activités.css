@@ -1,0 +1,51 @@
+ul{
+    font-size: 25px;
+    position: fixed;
+    list-style: none;
+    align-items: center;
+    margin-left: 1vw;
+    width: 93.5vw;
+    height: 70px;
+    background-color: rgb(115, 183, 228);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#scale:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.allActivité{
+    font-size: 20px;
+    position: fixed;
+    top: 80px;
+    left: 46.4vw;
+    width: 120px;
+    height: 270px;
+    padding-left: 40px;
+    background-color:rgb(115, 183, 228);
+    border-radius: 25px;
+    visibility: hidden;
+    z-index: 1;
+}
+body{
+    border: 3px dashed blue;
+}
+h1{
+    font-size: 45px;
+}
+.container{
+    position: relative;
+    border: 3px solid yellow;
+    top: 150px;
+}
