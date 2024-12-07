@@ -5,6 +5,7 @@
 body{
     background: url(R.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     height: 100px;
